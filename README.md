@@ -1,4 +1,4 @@
-# @zazuko/eslint-config
+# @tpluscode/eslint-config
 
 Slightly customized `standard` config with TypeScript rules enabled. 
 
@@ -6,7 +6,7 @@ Slightly customized `standard` config with TypeScript rules enabled.
 
 ```
 npm i --save-dev \
-    @zazuko/eslint-config \
+    @tpluscode/eslint-config \
     @typescript-eslint/eslint-plugin \
     @typescript-eslint/parser \
     standard
@@ -18,7 +18,7 @@ In your eslint config:
 
 ```json
 {
-  "extends": [ "@zazuko" ],
+  "extends": [ "@tpluscode" ],
   "parser": {
     "project": "./tsconfig.json"
   }

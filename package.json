@@ -1,5 +1,5 @@
 {
-  "name": "@zazuko/eslint-config",
+  "name": "@tpluscode/eslint-config",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
@@ -23,17 +23,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zazuko/eslint-config.git"
+    "url": "git+https://github.com/tpluscode/eslint-config.git"
   },
   "keywords": [
     "eslint"
   ],
-  "author": "Zazuko GmbH",
+  "author": "Tomasz Pluskiewicz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zazuko/eslint-config/issues"
+    "url": "https://github.com/tpluscode/eslint-config/issues"
   },
-  "homepage": "https://github.com/zazuko/eslint-config#readme",
+  "homepage": "https://github.com/tpluscode/eslint-config#readme",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
