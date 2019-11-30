@@ -1,4 +1,4 @@
-language: nodejs
+language: node_js
 deploy:
   provider: npm
   email: npm@t-code.pl

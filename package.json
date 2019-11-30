@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "eslint .",
     "release": "standard-version"
   },
   "peerDependencies": {
