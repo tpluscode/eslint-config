@@ -1,0 +1,9 @@
+language: nodejs
+deploy:
+  provider: npm
+  email: npm@t-code.pl
+  api_key:
+    secure: Dpc6tGfMuibpPzTNJfGrYKeAtphQBFUJWnwENhyuIIH08lGG3Ty8N4QOhXPmwOQYP/z2m4gLK7UymqqPn3ywLy6hm1mh5Gh6P9oQasqzBeW8j9qta+ScV9l7pOyIQt7JzQ/hiEA813EqOi0q5EjRjXKko1e/NkhwrIyd0QUIY0hTIKLJf3+5Me0SQ3YEpy3TdMxSRULnQBQcDq9fPa00ovrTq8gzFiel/F40KQc+L0QxcEo3TsFvW+DrfwYwgNc7Ge8uZsKLHKLVt60i9FWvb4ZlXmzIz1LCoo5fQm4iZYPhJxe+oeD017B+TZ9/JixKaWUA1ssjk//BiHsF8QLlxUHHpqcqI1FSuzR4fpdDXGhrnnduZFfViXoLwaD1FoTGEDmuqBfl3N9YPHptjNrxRSyaIlvLS53/HStubOLohTpN75wuuIhcvFEi8jdWEhyvpkz9nnk0tmrhRIzKWoFe5HcHOwJt3bOGltAuhjWk9IPl1B5+oJjv3IzDY46f3A9DCU3mzEmANKlQnLd45r7qfALwEHzUZOFyaY/30MzywqeNpdpbfWZoz2RxX0lg8l6ENitctqWcbf6Ugdkb60OGG7QGc59AsCDHNpEdYHCAaCN/lUY9IPb2PXxuZe693Hm8AguwGFMSj0HqzoC56EfhL1grsfmg5Rk4gMiuqLA9Mas=
+  on:
+    tags: true
+    repo: tpluscode/eslint-config
