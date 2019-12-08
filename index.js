@@ -11,6 +11,7 @@ module.exports = {
   ],
   rules: {
     indent: 'off',
+    'no-console': 'error',
     'import/no-unresolved': 'warn',
     'import/extensions': 'off',
     'space-before-function-paren': [
