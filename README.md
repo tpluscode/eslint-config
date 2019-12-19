@@ -19,7 +19,7 @@ In your eslint config:
 ```json
 {
   "extends": [ "@tpluscode" ],
-  "parser": {
+  "parserOptions": {
     "project": "./tsconfig.json"
   }
 }
