@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.1.0](https://github.com/tpluscode/eslint-config/compare/v0.0.4...v0.1.0) (2020-04-23)
+
+
+### Features
+
+* set up import plugin ([13873d7](https://github.com/tpluscode/eslint-config/commit/13873d7ad82b3fb7b9669f4486272e3648672538))
+
 ### [0.0.4](https://github.com/tpluscode/eslint-config/compare/v0.0.3...v0.0.4) (2019-12-08)
 
 
