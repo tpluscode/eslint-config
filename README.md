@@ -9,6 +9,7 @@ npm i --save-dev \
     @tpluscode/eslint-config \
     @typescript-eslint/eslint-plugin \
     @typescript-eslint/parser \
+    eslint-plugin-import \
     standard
 ```
 
