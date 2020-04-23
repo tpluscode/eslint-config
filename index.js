@@ -1,7 +1,10 @@
 module.exports = {
   extends: [
     'plugin:@typescript-eslint/recommended',
-    'standard'
+    'standard',
+    'plugin:import/errors',
+    'plugin:import/warnings',
+    'plugin:import/typescript'
   ],
   parserOptions: {
     parser: '@typescript-eslint/parser'
@@ -33,7 +36,16 @@ module.exports = {
           delimiter: 'none'
         }
       }
+    ],
+    'import/no-extraneous-dependencies': [
+      'error',
+      {
+        devDependencies: false, optionalDependencies: false
+      }
     ]
+  },
+  settings: {
+    'import/core-modules': ['rdf-js']
   },
   overrides: [
     {
