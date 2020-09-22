@@ -40,7 +40,15 @@ module.exports = {
     'import/no-extraneous-dependencies': [
       'error',
       {
-        devDependencies: false, optionalDependencies: false
+        devDependencies: [
+          '**/test/**/*.ts',
+          '*.test.ts',
+          '*.spec.ts',
+          '**/test/**/*.js',
+          '*.test.js',
+          '*.spec.js'
+        ],
+        optionalDependencies: false
       }
     ]
   },
