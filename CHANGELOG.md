@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.1](https://github.com/tpluscode/eslint-config/compare/v0.1.0...v0.1.1) (2020-09-22)
+
+
+### Features
+
+* disable default ctor rule in ts files ([8f4ec82](https://github.com/tpluscode/eslint-config/commit/8f4ec8299c0d6cdf6146f4144645c7055efd460f))
+* tweak import/no-extraneous-dependencies in test files ([d37be96](https://github.com/tpluscode/eslint-config/commit/d37be961db6ab82f40092f73cac37beee1571c82))
+
 ## [0.1.0](https://github.com/tpluscode/eslint-config/compare/v0.0.4...v0.1.0) (2020-04-23)
 
 
