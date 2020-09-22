@@ -56,6 +56,13 @@ module.exports = {
       rules: {
         '@typescript-eslint/no-var-requires': 'off'
       }
+    },
+    {
+      files: '*.ts',
+      rules: {
+        'no-useless-constructor': 'off',
+        '@typescript-eslint/no-useless-constructor': 'error'
+      }
     }
   ]
 }
