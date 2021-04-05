@@ -18,6 +18,7 @@ module.exports = {
     'no-console': 'error',
     'import/no-unresolved': 'warn',
     'import/extensions': 'off',
+    'import/order': 'error',
     'space-before-function-paren': [
       'error',
       {
