@@ -1,6 +1,6 @@
 # @tpluscode/eslint-config
 
-Slightly customized `standard` config with TypeScript rules enabled. 
+Slightly customized `standard` config with TypeScript rules enabled.
 
 ## Installation
 
@@ -9,7 +9,9 @@ npm i --save-dev \
     @tpluscode/eslint-config \
     @typescript-eslint/eslint-plugin \
     @typescript-eslint/parser \
+    eslint-config-standard \
     eslint-plugin-import \
+    eslint-plugin-node \
     standard
 ```
 
