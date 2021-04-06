@@ -16,7 +16,7 @@ module.exports = {
   rules: {
     indent: 'off',
     'no-console': 'error',
-    'import/no-unresolved': 'warn',
+    'import/no-unresolved': 'error',
     'import/extensions': 'off',
     'import/order': 'error',
     'space-before-function-paren': [
@@ -54,7 +54,15 @@ module.exports = {
     ]
   },
   settings: {
-    'import/core-modules': ['rdf-js']
+    'import/core-modules': ['rdf-js'],
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.ts', '.tsx']
+    },
+    'import/resolver': {
+      typescript: {
+        alwaysTryTypes: true
+      }
+    }
   },
   overrides: [
     {
