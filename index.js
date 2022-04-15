@@ -76,13 +76,13 @@ module.exports = {
     },
     {
       files: [
-        "*.test.js",
-        "*.spec.js",
-        "*.test.ts",
-        "*.spec.ts"
+        '*.test.js',
+        '*.spec.js',
+        '*.test.ts',
+        '*.spec.ts'
       ],
-      "rules": {
-        "no-unused-expressions": 'off'
+      'rules': {
+        'no-unused-expressions': 'off'
       }
     },
     {
