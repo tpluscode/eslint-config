@@ -75,6 +75,17 @@ module.exports = {
       }
     },
     {
+      files: [
+        "*.test.js",
+        "*.spec.js",
+        "*.test.ts",
+        "*.spec.ts"
+      ],
+      "rules": {
+        "no-unused-expressions": 'off'
+      }
+    },
+    {
       files: '*.ts',
       rules: {
         'no-useless-constructor': 'off',
