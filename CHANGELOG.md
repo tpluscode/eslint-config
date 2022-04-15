@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.1
+
+### Patch Changes
+
+- 0497e3b: Disable `no-unused-expression` in test files
+
 ## 0.3.0
 
 ### Minor Changes
