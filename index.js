@@ -81,7 +81,7 @@ module.exports = {
         '*.test.ts',
         '*.spec.ts'
       ],
-      'rules': {
+      rules: {
         'no-unused-expressions': 'off'
       }
     },
