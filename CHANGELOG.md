@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.2
+
+### Patch Changes
+
+- 4e98a01: Disable default `no-dupe-class-members`
+
 ## 0.3.1
 
 ### Patch Changes
