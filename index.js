@@ -52,8 +52,8 @@ module.exports = {
         optionalDependencies: false
       }
     ],
-    "no-dupe-class-members": "off",
-    "@typescript-eslint/no-dupe-class-members": ["error"]
+    'no-dupe-class-members': 'off',
+    '@typescript-eslint/no-dupe-class-members': ['error']
   },
   settings: {
     'import/core-modules': ['rdf-js'],
