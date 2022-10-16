@@ -55,7 +55,7 @@ module.exports = {
     'no-dupe-class-members': 'off',
     '@typescript-eslint/no-dupe-class-members': ['error'],
     'no-redeclare': 'off',
-    '@typescript-eslint/no-redeclare: 'warn'
+    '@typescript-eslint/no-redeclare': 'warn'
   },
   settings: {
     'import/core-modules': ['rdf-js'],
