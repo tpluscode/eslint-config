@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.3
+
+### Patch Changes
+
+- d57dc1e: Standard `no-redeclare` would show incorrect errors about function overloads
+
 ## 0.3.2
 
 ### Patch Changes
