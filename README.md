@@ -1,15 +1,14 @@
 # @tpluscode/eslint-config
 
-Slightly customized `standard` config with TypeScript rules enabled.
+Slightly customized `standard` config.
 
 ## Installation
+
+For JS project:
 
 ```
 npm i --save-dev \
     @tpluscode/eslint-config \
-    @typescript-eslint/eslint-plugin \
-    @typescript-eslint/parser \
-    eslint-import-resolver-typescript \
     eslint-config-standard \
     eslint-plugin-import \
     eslint-plugin-node \
@@ -18,9 +17,26 @@ npm i --save-dev \
     standard
 ```
 
-## Usage
+If you write code in TypeScript, add:
 
-In your eslint config:
+```
+npm i --save-dev \
+    @typescript-eslint/eslint-plugin \
+    @typescript-eslint/parser \
+    eslint-import-resolver-typescript
+```
+
+## eslint config
+
+In a JavaScript project:
+
+```json
+{
+  "extends": [ "@tpluscode/eslint-config/js" ]
+}
+```
+
+In a TypeScript project:
 
 ```json
 {
