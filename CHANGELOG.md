@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.4
+
+### Patch Changes
+
+- 191763b: Added a base config for JS-only projects
+
 ## 0.3.3
 
 ### Patch Changes
