@@ -14,6 +14,7 @@ npm i --save-dev \
     eslint-plugin-node \
     eslint-plugin-promise \
     eslint-plugin-n \
+    eslint-plugin-require-extensions \
     standard
 ```
 
