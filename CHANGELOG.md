@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.0
+
+### Minor Changes
+
+- 92ac89c: Added `eslint-plugin-require-extensions`
+
 ## 0.3.4
 
 ### Patch Changes
