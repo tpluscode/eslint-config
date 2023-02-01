@@ -2,10 +2,12 @@ module.exports = {
   extends: [
     'standard',
     'plugin:import/errors',
-    'plugin:import/warnings'
+    'plugin:import/warnings',
+    'plugin:require-extensions/recommended'
   ],
   plugins: [
-    'import'
+    'import',
+    'require-extensions'
   ],
   rules: {
     indent: ['error', 2],
