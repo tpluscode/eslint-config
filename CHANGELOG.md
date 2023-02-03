@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.1
+
+### Patch Changes
+
+- eb4771f: disable `no-undef` in TS files as suggested by `typescript-eslint`
+
 ## 0.4.0
 
 ### Minor Changes
