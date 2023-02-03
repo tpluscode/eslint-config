@@ -47,10 +47,11 @@ module.exports = {
       }
     },
     {
-      files: '*.ts',
+      files: ['*.ts', '*.mts', '*.cts', '*.tsx'],
       rules: {
         'no-useless-constructor': 'off',
-        '@typescript-eslint/no-useless-constructor': 'error'
+        '@typescript-eslint/no-useless-constructor': 'error',
+        'no-undef': 'off'
       }
     }
   ]
