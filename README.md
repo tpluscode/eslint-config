@@ -22,6 +22,7 @@ If you write code in TypeScript, add:
 
 ```
 npm i --save-dev \
+    typescript \
     @typescript-eslint/eslint-plugin \
     @typescript-eslint/parser \
     eslint-import-resolver-typescript
