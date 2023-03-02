@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.2
+
+### Patch Changes
+
+- ee3af50: Apply overrides to `.mjs` too
+
 ## 0.4.1
 
 ### Patch Changes
