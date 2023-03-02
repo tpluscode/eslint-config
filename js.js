@@ -34,7 +34,10 @@ module.exports = {
           '*.spec.ts',
           '**/test/**/*.js',
           '*.test.js',
-          '*.spec.js'
+          '*.spec.js',
+          '**/test/**/*.mjs',
+          '*.test.mjs',
+          '*.spec.mjs'
         ],
         optionalDependencies: false
       }
@@ -48,6 +51,8 @@ module.exports = {
       files: [
         '*.test.js',
         '*.spec.js',
+        '*.test.mjs',
+        '*.spec.mjs',
         '*.test.ts',
         '*.spec.ts'
       ],
