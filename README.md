@@ -4,18 +4,16 @@ Slightly customized `standard` config.
 
 ## Installation
 
-For JS project:
+Newer NPM installs peer dependencies automatically
 
 ```
-npm i --save-dev \
-    @tpluscode/eslint-config \
-    eslint-config-standard \
-    eslint-plugin-import \
-    eslint-plugin-node \
-    eslint-plugin-promise \
-    eslint-plugin-n \
-    eslint-plugin-require-extensions \
-    standard
+npm i --save-dev @tpluscode/eslint-config
+```
+
+With yarn v1 install with:
+
+```
+npx install-peerdeps -Yd @tpluscode/eslint-config
 ```
 
 If you write code in TypeScript, add:
