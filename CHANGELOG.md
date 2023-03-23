@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.3
+
+### Patch Changes
+
+- e9106a0: Update `eslint-plugin-require-extensions` to support fix index imports and handle parametrised imports
+- cda97a1: Simplify installation instructions
+
 ## 0.4.2
 
 ### Patch Changes
