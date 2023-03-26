@@ -10,10 +10,10 @@ Newer NPM installs peer dependencies automatically
 npm i --save-dev @tpluscode/eslint-config
 ```
 
-With yarn v1 install with:
+For yarn v1 use `install-peerdeps` (`--extra-args` needed for monorepos):
 
 ```
-npx install-peerdeps -Yd @tpluscode/eslint-config
+npx install-peerdeps -Yd @tpluscode/eslint-config (--extra-args "-W")
 ```
 
 If you write code in TypeScript, add:
