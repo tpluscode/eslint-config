@@ -32,6 +32,8 @@ module.exports = {
           '**/test/**/*.ts',
           '*.test.ts',
           '*.spec.ts',
+          '*.test.js',
+          '*.spec.js',
           '**/test/**/*.js',
           '*.test.js',
           '*.spec.js',
