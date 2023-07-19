@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.4
+
+### Patch Changes
+
+- 3edea08: allow dev deps in \*.test.js
+
 ## 0.4.3
 
 ### Patch Changes
