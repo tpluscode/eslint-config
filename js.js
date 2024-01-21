@@ -7,7 +7,8 @@ module.exports = {
   ],
   plugins: [
     'import',
-    'require-extensions'
+    'require-extensions',
+    'unused-imports'
   ],
   rules: {
     indent: ['error', 2],
@@ -43,6 +44,12 @@ module.exports = {
         ],
         optionalDependencies: false
       }
+    ],
+    'no-unused-vars': 'off',
+    'unused-imports/no-unused-imports': 'error',
+    'unused-imports/no-unused-vars': [
+      'warn',
+      { vars: 'all', varsIgnorePattern: '^_', args: 'after-used', argsIgnorePattern: '^_' }
     ]
   },
   settings: {
