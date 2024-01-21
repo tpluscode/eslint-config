@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.5
+
+### Patch Changes
+
+- ffd1199: Add rules to automatically remove unused imports
+
 ## 0.4.4
 
 ### Patch Changes
