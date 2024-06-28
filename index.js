@@ -26,7 +26,7 @@ module.exports = {
     'no-redeclare': 'off',
     '@typescript-eslint/no-redeclare': 'warn',
     '@typescript-eslint/no-unused-vars': 'off',
-    '@typescript-eslint/consistent-type-imports': 'warn'
+    '@typescript-eslint/consistent-type-imports': 'error'
   },
   settings: {
     'import/parsers': {
