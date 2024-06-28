@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.6
+
+### Patch Changes
+
+- 3c0ac2e: Added `eslint-plugin-rdf`
+
 ## 0.4.5
 
 ### Patch Changes
