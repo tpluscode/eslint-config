@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.8
+
+### Patch Changes
+
+- b3aa9ee: Enforce type-only imports where necessary
+
 ## 0.4.7
 
 ### Patch Changes
