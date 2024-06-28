@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.7
+
+### Patch Changes
+
+- 6216f41: Missing dependency
+
 ## 0.4.6
 
 ### Patch Changes
