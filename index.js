@@ -25,7 +25,8 @@ module.exports = {
     '@typescript-eslint/no-dupe-class-members': ['error'],
     'no-redeclare': 'off',
     '@typescript-eslint/no-redeclare': 'warn',
-    '@typescript-eslint/no-unused-vars': 'off'
+    '@typescript-eslint/no-unused-vars': 'off',
+    '@typescript-eslint/consistent-type-imports': 'warn'
   },
   settings: {
     'import/parsers': {
