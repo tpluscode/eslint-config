@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.9
+
+### Patch Changes
+
+- 1a22cee: consistent-type-imports: auto-fix only work when level is error?
+
 ## 0.4.8
 
 ### Patch Changes
