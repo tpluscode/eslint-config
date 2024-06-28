@@ -3,12 +3,14 @@ module.exports = {
     'standard',
     'plugin:import/errors',
     'plugin:import/warnings',
-    'plugin:require-extensions/recommended'
+    'plugin:require-extensions/recommended',
+    'plugin:rdf/recommended'
   ],
   plugins: [
     'import',
     'require-extensions',
-    'unused-imports'
+    'unused-imports',
+    'rdf'
   ],
   rules: {
     indent: ['error', 2],
@@ -51,9 +53,6 @@ module.exports = {
       'warn',
       { vars: 'all', varsIgnorePattern: '^_', args: 'after-used', argsIgnorePattern: '^_' }
     ]
-  },
-  settings: {
-    'import/core-modules': ['rdf-js']
   },
   overrides: [
     {
