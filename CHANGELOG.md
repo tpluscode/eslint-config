@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.5.0
+
+### Minor Changes
+
+- 50bd0e7: Enabled rule `@typescript-eslint/consistent-type-exports`
+
 ## 0.4.9
 
 ### Patch Changes
