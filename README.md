@@ -46,3 +46,5 @@ In a TypeScript project:
   }
 }
 ```
+
+`parserOptions.project` is required for TypeScript projects unless the rule `@typescript-eslint/consistent-type-exports` is disabled.
