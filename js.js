@@ -4,13 +4,15 @@ module.exports = {
     'plugin:import/errors',
     'plugin:import/warnings',
     'plugin:require-extensions/recommended',
-    'plugin:rdf/recommended'
+    'plugin:rdf/recommended',
+    'plugin:mocha/recommended'
   ],
   plugins: [
     'import',
     'require-extensions',
     'unused-imports',
-    'rdf'
+    'rdf',
+    'mocha'
   ],
   rules: {
     indent: ['error', 2],
