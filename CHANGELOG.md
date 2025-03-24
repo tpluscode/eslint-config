@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.6.0
+
+### Minor Changes
+
+- 9f0174f: Added recommended mocha rules
+
+### Patch Changes
+
+- ca15bcd: Allow test dev deps is `tests` directory (plural)
+
 ## 0.5.0
 
 ### Minor Changes
