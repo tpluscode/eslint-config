@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.6.1
+
+### Patch Changes
+
+- 7ed97bd: Mocha was added dev dependency instead of prod dependency
+
 ## 0.6.0
 
 ### Minor Changes
