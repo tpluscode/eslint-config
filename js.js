@@ -33,14 +33,17 @@ module.exports = {
       {
         devDependencies: [
           '**/test/**/*.ts',
+          '**/tests/**/*.ts',
           '*.test.ts',
           '*.spec.ts',
           '*.test.js',
           '*.spec.js',
           '**/test/**/*.js',
+          '**/tests/**/*.js',
           '*.test.js',
           '*.spec.js',
           '**/test/**/*.mjs',
+          '**/tests/**/*.mjs',
           '*.test.mjs',
           '*.spec.mjs'
         ],
