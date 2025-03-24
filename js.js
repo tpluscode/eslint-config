@@ -57,7 +57,10 @@ module.exports = {
     'unused-imports/no-unused-vars': [
       'warn',
       { vars: 'all', varsIgnorePattern: '^_', args: 'after-used', argsIgnorePattern: '^_' }
-    ]
+    ],
+    'mocha/no-sibling-hooks': 'off',
+    'mocha/no-setup-in-describe': 'warn',
+    'mocha/max-top-level-suites': 'warn'
   },
   overrides: [
     {
