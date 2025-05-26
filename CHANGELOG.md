@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.6.3
+
+### Patch Changes
+
+- c95a040: Disable `func-names` in tests
+
 ## 0.6.2
 
 ### Patch Changes
