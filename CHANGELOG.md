@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.6.4
+
+### Patch Changes
+
+- a073786: Disable `prefer-arrow-callback` in tests (conflicts with mocha rules)
+
 ## 0.6.3
 
 ### Patch Changes
