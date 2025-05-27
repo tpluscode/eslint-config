@@ -74,7 +74,8 @@ module.exports = {
       ],
       rules: {
         'no-unused-expressions': 'off',
-        'func-names': 'off'
+        'func-names': 'off',
+        'prefer-arrow-callback': 'off'
       }
     }
   ]
