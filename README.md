@@ -1,6 +1,6 @@
 # @tpluscode/eslint-config
 
-Slightly customized `standard` config.
+Slightly customized standard-style config for ESLint flat config.
 
 ## Installation
 
@@ -30,21 +30,30 @@ npm i --save-dev \
 
 In a JavaScript project:
 
-```json
-{
-  "extends": [ "@tpluscode/eslint-config/js" ]
-}
+```js
+import config from '@tpluscode/eslint-config/js'
+
+export default [
+  ...config,
+]
 ```
 
 In a TypeScript project:
 
-```json
-{
-  "extends": [ "@tpluscode" ],
-  "parserOptions": {
-    "project": "./tsconfig.json"
-  }
-}
+```js
+import config from '@tpluscode/eslint-config'
+
+export default [
+  ...config,
+  {
+    languageOptions: {
+      parserOptions: {
+        project: './tsconfig.json',
+        tsconfigRootDir: import.meta.dirname,
+      },
+    },
+  },
+]
 ```
 
 `parserOptions.project` is required for TypeScript projects unless the rule `@typescript-eslint/consistent-type-exports` is disabled.
