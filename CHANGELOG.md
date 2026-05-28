@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.1
+
+### Patch Changes
+
+- 0e02d92: Ignore `n/no-unpublished-import` and `n/no-unpublished-require` in test sources
+
 ## 1.0.0
 
 ### Major Changes
