@@ -118,6 +118,8 @@ export default [
       'no-unused-expressions': 'off',
       'func-names': 'off',
       'prefer-arrow-callback': 'off',
+      'n/no-unpublished-import': 'off',
+      'n/no-unpublished-require': 'off',
     },
   },
 ]
