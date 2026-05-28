@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.0
+
+### Major Changes
+
+- 4218648: Updated to eslint v9 flat config
+
 ## 0.6.4
 
 ### Patch Changes
