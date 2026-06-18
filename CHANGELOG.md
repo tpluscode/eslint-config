@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.2
+
+### Patch Changes
+
+- 16f885a: TypeScript: allow single base interface with rule `@typescript-eslint/no-empty-object-type`
+- 16f885a: TypeScript: disable `@typescript-eslint/no-unused-expressions` in test files
+
 ## 1.0.1
 
 ### Patch Changes
