@@ -43,6 +43,22 @@ export default [
       'no-useless-constructor': 'off',
       '@typescript-eslint/no-useless-constructor': 'error',
       'no-undef': 'off',
+      '@typescript-eslint/no-empty-object-type': ['error', {
+        allowInterfaces: 'with-single-extends',
+      }],
+    },
+  },
+  {
+    files: [
+      '**/*.test.js',
+      '**/*.spec.js',
+      '**/*.test.mjs',
+      '**/*.spec.mjs',
+      '**/*.test.ts',
+      '**/*.spec.ts',
+    ],
+    rules: {
+      '@typescript-eslint/no-unused-expressions': 'off',
     },
   },
 ]
