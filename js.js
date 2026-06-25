@@ -122,4 +122,10 @@ export default [
       'n/no-unpublished-require': 'off',
     },
   },
+  {
+    files: ['eslint.config.*'],
+    rules: {
+      'import/no-extraneous-dependencies': 'off',
+    },
+  },
 ]
