@@ -8,6 +8,10 @@
     "test": "eslint .",
     "release": "changeset publish"
   },
+  "exports": {
+    "./js": "./js.js",
+    ".": "./index.js"
+  },
   "engines": {
     "node": ">=18.18"
   },
