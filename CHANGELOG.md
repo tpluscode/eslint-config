@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.1.0
+### Minor Changes
+
+- 36b6982: Ignore `import/no-extraneous-dependencies` in eslint config files
+
+### Patch Changes
+
+- a9621ad: Added proper exports to `package.json`
+
 ## 1.0.2
 
 ### Patch Changes
