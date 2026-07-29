@@ -7,6 +7,7 @@ import n from 'eslint-plugin-n'
 import promise from 'eslint-plugin-promise'
 import rdf from 'eslint-plugin-rdf'
 import unusedImports from 'eslint-plugin-unused-imports'
+import stylistic from '@stylistic/eslint-plugin'
 
 const require = createRequire(import.meta.url)
 const requireExtensions = require('eslint-plugin-require-extensions')
@@ -18,6 +19,10 @@ function rulesFrom(config) {
 export default [
   js.configs.recommended,
   {
+    plugins: { '@stylistic': stylistic },
+  },
+  stylistic.configs['recommended'],
+  {
     files: ['**/*.{js,cjs,mjs}'],
     languageOptions: {
       ecmaVersion: 'latest',
@@ -28,7 +33,7 @@ export default [
       },
     },
     plugins: {
-      import: importPlugin,
+      'import': importPlugin,
       mocha,
       n,
       promise,
@@ -49,7 +54,7 @@ export default [
       ...rulesFrom(requireExtensions.configs.recommended),
       ...rulesFrom(mocha.configs.recommended),
 
-      indent: ['error', 2],
+      'indent': ['error', 2],
       'no-console': 'error',
       'import/no-unresolved': 'error',
       'import/extensions': 'off',
