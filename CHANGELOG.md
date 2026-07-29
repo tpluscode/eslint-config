@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.0.0
+### Major Changes
+
+- fada491: Added eslint stylistic plugin
+
 ## 1.1.0
 ### Minor Changes
 
