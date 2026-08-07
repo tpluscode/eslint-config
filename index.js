@@ -46,6 +46,9 @@ export default [
       '@typescript-eslint/no-empty-object-type': ['error', {
         allowInterfaces: 'with-single-extends',
       }],
+      '@typescript-eslint/no-explicit-any': ['error', {
+        ignoreRestArgs: true,
+      }],
     },
   },
   {
