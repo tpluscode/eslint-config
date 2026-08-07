@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.1.0
+### Minor Changes
+
+- 70dffbf: Set `ignoreRestArgs` of `@typescript-eslint/no-explicit-any` rule
+
 ## 2.0.0
 ### Major Changes
 
