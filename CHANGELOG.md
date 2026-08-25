@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.1.1
+### Patch Changes
+
+- 494111c: Updated `eslint-plugin-rdf` to v3
+
 ## 2.1.0
 ### Minor Changes
 
