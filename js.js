@@ -18,6 +18,7 @@ function rulesFrom(config) {
 
 export default [
   js.configs.recommended,
+  rdf.configs.js,
   {
     plugins: { '@stylistic': stylistic },
   },
@@ -50,7 +51,6 @@ export default [
       ...rulesFrom(importPlugin.configs.recommended),
       ...rulesFrom(n.configs['flat/recommended']),
       ...rulesFrom(promise.configs['flat/recommended']),
-      ...rulesFrom(rdf.configs.recommended),
       ...rulesFrom(requireExtensions.configs.recommended),
       ...rulesFrom(mocha.configs.recommended),
 
