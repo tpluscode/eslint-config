@@ -22,7 +22,10 @@ export default [
   {
     plugins: { '@stylistic': stylistic },
   },
-  stylistic.configs['recommended'],
+  {
+    files: ['**/*.{js,cjs,mjs,jsx,ts,cts,mts,tsx}'],
+    ...stylistic.configs['recommended'],
+  },
   {
     files: ['**/*.{js,cjs,mjs}'],
     languageOptions: {
