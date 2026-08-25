@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.1.2
+### Patch Changes
+
+- 1bf8680: Ensure that `@stylistic/*` rules are only applied to JS/TS
+
 ## 2.1.1
 ### Patch Changes
 
