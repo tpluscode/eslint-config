@@ -25,6 +25,9 @@ export default [
   {
     files: ['**/*.{js,cjs,mjs,jsx,ts,cts,mts,tsx}'],
     ...stylistic.configs['recommended'],
+    rules: {
+      '@stylistic/quotes': ['error', 'single', { avoidEscape: true }],
+    },
   },
   {
     files: ['**/*.{js,cjs,mjs}'],
