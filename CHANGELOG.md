@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.1.3
+### Patch Changes
+
+- 573efa1: Stylistic: Allow double quotes containing unescaped single quotes
+
 ## 2.1.2
 ### Patch Changes
 
