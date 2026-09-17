@@ -1,5 +1,14 @@
 # Changelog
 
+## 3.0.0
+### Major Changes
+
+- 8760315: Use `eslint-plugin-import-x` instead of `eslint-plugin-import`
+
+### Patch Changes
+
+- 71fd3cb: Relax peer dependency on `eslint` to allow 9, 10 and 11
+
 ## 2.2.2
 ### Patch Changes
 
