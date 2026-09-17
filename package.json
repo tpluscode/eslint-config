@@ -11,6 +11,7 @@
   "exports": {
     "./js": "./js.js",
     "./no-rdf": "./no-rdf.js",
+    "./ts-no-rdf": "./ts-no-rdf.js",
     ".": "./index.js"
   },
   "engines": {
