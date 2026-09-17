@@ -1,5 +1,10 @@
 # Changelog
 
+## 3.0.1
+### Patch Changes
+
+- 88bb4df: Stylistic rules were not being applied
+
 ## 3.0.0
 ### Major Changes
 
