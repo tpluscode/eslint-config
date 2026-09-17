@@ -10,6 +10,7 @@
   },
   "exports": {
     "./js": "./js.js",
+    "./no-rdf": "./no-rdf.js",
     ".": "./index.js"
   },
   "engines": {
