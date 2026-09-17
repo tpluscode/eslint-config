@@ -1,7 +1,7 @@
 import { createRequire } from 'module'
 import js from '@eslint/js'
 import globals from 'globals'
-import importPlugin from 'eslint-plugin-import'
+import { configs as importConfigs, createNodeResolver, importX } from 'eslint-plugin-import-x'
 import mocha from 'eslint-plugin-mocha'
 import n from 'eslint-plugin-n'
 import promise from 'eslint-plugin-promise'
@@ -17,6 +17,7 @@ function rulesFrom(config) {
 
 export default [
   js.configs.recommended,
+  importX.flatConfigs.recommended,
   {
     plugins: { '@stylistic': stylistic },
   },
@@ -38,7 +39,7 @@ export default [
       },
     },
     plugins: {
-      'import': importPlugin,
+      'import-x': importX,
       mocha,
       n,
       promise,
@@ -46,12 +47,12 @@ export default [
       'unused-imports': unusedImports,
     },
     settings: {
-      'import/resolver': {
-        node: true,
-      },
+      'import-x/resolver-next': [
+        createNodeResolver(),
+      ],
     },
     rules: {
-      ...rulesFrom(importPlugin.configs.recommended),
+      ...rulesFrom(importConfigs.recommended),
       ...rulesFrom(n.configs['flat/recommended']),
       ...rulesFrom(promise.configs['flat/recommended']),
       ...rulesFrom(requireExtensions.configs.recommended),
@@ -59,9 +60,9 @@ export default [
 
       'indent': ['error', 2],
       'no-console': 'error',
-      'import/no-unresolved': 'error',
-      'import/extensions': 'off',
-      'import/order': 'error',
+      'import-x/no-unresolved': 'error',
+      'import-x/extensions': 'off',
+      'import-x/order': 'error',
       'space-before-function-paren': [
         'error',
         {
@@ -72,7 +73,7 @@ export default [
         'error',
         'always-multiline',
       ],
-      'import/no-extraneous-dependencies': [
+      'import-x/no-extraneous-dependencies': [
         'error',
         {
           devDependencies: [
@@ -133,7 +134,7 @@ export default [
   {
     files: ['eslint.config.*'],
     rules: {
-      'import/no-extraneous-dependencies': 'off',
+      'import-x/no-extraneous-dependencies': 'off',
     },
   },
 ]

@@ -4,7 +4,7 @@ export default [
   ...jsConfig,
   {
     settings: {
-      'import/resolver': {
+      'import-x/resolver': {
         typescript: { alwaysTryTypes: true },
       },
     },
