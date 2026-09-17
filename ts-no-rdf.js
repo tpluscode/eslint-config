@@ -1,6 +1,7 @@
 import tsPlugin from '@typescript-eslint/eslint-plugin'
 import tsParser from '@typescript-eslint/parser'
-import importPlugin from 'eslint-plugin-import'
+import { createNodeResolver } from 'eslint-plugin-import-x'
+import { createTypeScriptImportResolver } from 'eslint-import-resolver-typescript'
 import jsConfig from './no-rdf.js'
 
 function rulesFrom(config) {
@@ -21,18 +22,18 @@ export default [
       '@typescript-eslint': tsPlugin,
     },
     settings: {
-      'import/parsers': {
+      'import-x/parsers': {
         '@typescript-eslint/parser': ['.ts', '.tsx', '.mts', '.cts'],
       },
-      'import/resolver': {
-        typescript: {
+      'import-x/resolver-next': [
+        createTypeScriptImportResolver({
           alwaysTryTypes: true,
-        },
-      },
+        }),
+        createNodeResolver(),
+      ],
     },
     rules: {
       ...rulesFrom(tsPlugin.configs.recommended),
-      ...rulesFrom(importPlugin.configs.typescript),
 
       'no-dupe-class-members': 'off',
       'no-redeclare': 'off',
