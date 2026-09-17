@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.2.0
+### Minor Changes
+
+- 302fff0: Added `@tpluscode/eslint-config/no-rdf` export to disable RDF plugin
+
 ## 2.1.3
 ### Patch Changes
 
