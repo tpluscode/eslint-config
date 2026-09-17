@@ -1,67 +1,12 @@
-import tsPlugin from '@typescript-eslint/eslint-plugin'
-import tsParser from '@typescript-eslint/parser'
-import importPlugin from 'eslint-plugin-import'
-import jsConfig from './js.js'
-
-function rulesFrom(config) {
-  return config && config.rules ? config.rules : {}
-}
+import rdf from 'eslint-plugin-rdf'
+import defaults from './ts-no-rdf.js'
 
 export default [
-  ...jsConfig,
+  ...defaults,
+  rdf.configs.js,
   {
-    files: ['**/*.{ts,mts,cts,tsx}'],
-    languageOptions: {
-      parser: tsParser,
-      parserOptions: {
-        sourceType: 'module',
-      },
-    },
     plugins: {
-      '@typescript-eslint': tsPlugin,
-    },
-    settings: {
-      'import/parsers': {
-        '@typescript-eslint/parser': ['.ts', '.tsx', '.mts', '.cts'],
-      },
-      'import/resolver': {
-        typescript: {
-          alwaysTryTypes: true,
-        },
-      },
-    },
-    rules: {
-      ...rulesFrom(tsPlugin.configs.recommended),
-      ...rulesFrom(importPlugin.configs.typescript),
-
-      'no-dupe-class-members': 'off',
-      'no-redeclare': 'off',
-      '@typescript-eslint/no-redeclare': 'warn',
-      'no-unused-vars': 'off',
-      '@typescript-eslint/consistent-type-exports': 'error',
-      '@typescript-eslint/consistent-type-imports': 'error',
-      'no-useless-constructor': 'off',
-      '@typescript-eslint/no-useless-constructor': 'error',
-      'no-undef': 'off',
-      '@typescript-eslint/no-empty-object-type': ['error', {
-        allowInterfaces: 'with-single-extends',
-      }],
-      '@typescript-eslint/no-explicit-any': ['error', {
-        ignoreRestArgs: true,
-      }],
-    },
-  },
-  {
-    files: [
-      '**/*.test.js',
-      '**/*.spec.js',
-      '**/*.test.mjs',
-      '**/*.spec.mjs',
-      '**/*.test.ts',
-      '**/*.spec.ts',
-    ],
-    rules: {
-      '@typescript-eslint/no-unused-expressions': 'off',
+      rdf,
     },
   },
 ]
