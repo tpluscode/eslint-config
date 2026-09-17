@@ -25,6 +25,7 @@ export default [
     files: ['**/*.{js,cjs,mjs,jsx,ts,cts,mts,tsx}'],
     ...stylistic.configs['recommended'],
     rules: {
+      ...rulesFrom(stylistic.configs['recommended']),
       '@stylistic/quotes': ['error', 'single', { avoidEscape: true }],
     },
   },
@@ -58,18 +59,18 @@ export default [
       ...rulesFrom(requireExtensions.configs.recommended),
       ...rulesFrom(mocha.configs.recommended),
 
-      'indent': ['error', 2],
+      '@stylistic/indent': ['error', 2],
       'no-console': 'error',
       'import-x/no-unresolved': 'error',
       'import-x/extensions': 'off',
       'import-x/order': 'error',
-      'space-before-function-paren': [
+      '@stylistic/space-before-function-paren': [
         'error',
         {
           named: 'never',
         },
       ],
-      'comma-dangle': [
+      '@stylistic/comma-dangle': [
         'error',
         'always-multiline',
       ],
