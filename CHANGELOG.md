@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.2.1
+### Patch Changes
+
+- dbd9432: Also added `ts-no-rdf` module which includes TS support without RDF plugin
+
 ## 2.2.0
 ### Minor Changes
 
