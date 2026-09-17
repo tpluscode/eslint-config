@@ -23,7 +23,7 @@
     "globals": "^15.0.0"
   },
   "peerDependencies": {
-    "eslint": "^9",
+    "eslint": ">=9 <11",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-mocha": "^11.3.0",
     "eslint-plugin-n": "^18.0.1",
