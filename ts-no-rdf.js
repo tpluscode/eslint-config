@@ -1,7 +1,7 @@
 import tsPlugin from '@typescript-eslint/eslint-plugin'
 import tsParser from '@typescript-eslint/parser'
 import importPlugin from 'eslint-plugin-import'
-import jsConfig from './js.js'
+import jsConfig from './no-rdf.js'
 
 function rulesFrom(config) {
   return config && config.rules ? config.rules : {}
