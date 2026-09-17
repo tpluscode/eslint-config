@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.2.2
+### Patch Changes
+
+- 330de86: Wrong base config for `ts-no-rdf`
+
 ## 2.2.1
 ### Patch Changes
 
