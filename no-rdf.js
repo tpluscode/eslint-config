@@ -1,4 +1,4 @@
-import { createRequire } from 'module'
+import { createRequire } from 'node:module'
 import js from '@eslint/js'
 import globals from 'globals'
 import { configs as importConfigs, createNodeResolver, importX } from 'eslint-plugin-import-x'
@@ -58,6 +58,11 @@ export default [
       'import-x/no-unresolved': 'error',
       'import-x/extensions': 'off',
       'import-x/order': 'error',
+      'n/no-missing-import': 'off',
+      'n/no-missing-require': 'off',
+      'n/no-extraneous-import': 'off',
+      'n/no-extraneous-require': 'off',
+      'n/prefer-node-protocol': 'error',
       '@stylistic/space-before-function-paren': [
         'error',
         {
@@ -131,6 +136,8 @@ export default [
     files: ['eslint.config.*'],
     rules: {
       'import-x/no-extraneous-dependencies': 'off',
+      'n/no-unpublished-import': 'off',
+      'n/no-unpublished-require': 'off',
     },
   },
 ]
