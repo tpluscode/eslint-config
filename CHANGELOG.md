@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.0.1
+### Patch Changes
+
+- af929e8: Disabled redundant rules from `node` plugin
+
 ## 4.0.0
 ### Major Changes
 
