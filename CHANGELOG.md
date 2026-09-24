@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.0.0
+### Major Changes
+
+- 455e8dd: Multiple rules were configure to only JS but not TS. Now all rules and plugins are configured to apply to both languages
+
 ## 3.0.1
 ### Patch Changes
 
