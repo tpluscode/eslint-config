@@ -24,13 +24,6 @@ export default [
   {
     files: ['**/*.{js,cjs,mjs,jsx,ts,cts,mts,tsx}'],
     ...stylistic.configs['recommended'],
-    rules: {
-      ...rulesFrom(stylistic.configs['recommended']),
-      '@stylistic/quotes': ['error', 'single', { avoidEscape: true }],
-    },
-  },
-  {
-    files: ['**/*.{js,cjs,mjs}'],
     languageOptions: {
       ecmaVersion: 'latest',
       sourceType: 'module',
@@ -53,6 +46,7 @@ export default [
       ],
     },
     rules: {
+      ...rulesFrom(stylistic.configs['recommended']),
       ...rulesFrom(importConfigs.recommended),
       ...rulesFrom(n.configs['flat/recommended']),
       ...rulesFrom(promise.configs['flat/recommended']),
@@ -70,6 +64,7 @@ export default [
           named: 'never',
         },
       ],
+      '@stylistic/quotes': ['error', 'single', { avoidEscape: true }],
       '@stylistic/comma-dangle': [
         'error',
         'always-multiline',
