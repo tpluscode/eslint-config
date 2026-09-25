@@ -1,4 +1,3 @@
-import { createRequire } from 'node:module'
 import js from '@eslint/js'
 import globals from 'globals'
 import { configs as importConfigs, createNodeResolver, importX } from 'eslint-plugin-import-x'
@@ -7,9 +6,7 @@ import n from 'eslint-plugin-n'
 import promise from 'eslint-plugin-promise'
 import unusedImports from 'eslint-plugin-unused-imports'
 import stylistic from '@stylistic/eslint-plugin'
-
-const require = createRequire(import.meta.url)
-const requireExtensions = require('eslint-plugin-require-extensions')
+import requireExtensions from 'eslint-plugin-require-js-extension'
 
 function rulesFrom(config) {
   return config && config.rules ? config.rules : {}
@@ -37,7 +34,7 @@ export default [
       mocha,
       n,
       promise,
-      'require-extensions': requireExtensions,
+      'require-js-extension': requireExtensions,
       'unused-imports': unusedImports,
     },
     settings: {
