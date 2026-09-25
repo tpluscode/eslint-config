@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.0.2
+### Patch Changes
+
+- 4be7bd7: Replaced 'eslint-plugin-require-extensions' with 'eslint-plugin-require-js-extension'
+
 ## 4.0.1
 ### Patch Changes
 
