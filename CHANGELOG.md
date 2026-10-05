@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.0.4
+
+### Patch Changes
+
+- 662d2a8: Update optional dependency `eslint-import-resolver-typescript` to v4
+
 ## 4.0.3
 
 ### Patch Changes
