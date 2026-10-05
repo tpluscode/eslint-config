@@ -6,7 +6,7 @@ import n from 'eslint-plugin-n'
 import promise from 'eslint-plugin-promise'
 import unusedImports from 'eslint-plugin-unused-imports'
 import stylistic from '@stylistic/eslint-plugin'
-import requireExtensions from 'eslint-plugin-require-js-extension'
+import requireExtensions from './patched/eslint-plugin-require-js-extension.js'
 
 function rulesFrom(config) {
   return config && config.rules ? config.rules : {}

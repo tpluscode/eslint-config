@@ -4,10 +4,16 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "prepare": "husky",
+    "copy-patch": "node scripts/copy-patch.js",
+    "prepare": "husky && patch-package && npm run copy-patch",
     "test": "eslint .",
     "release": "changeset publish"
   },
+  "files": [
+    "CHANGELOG.md",
+    "*.js",
+    "patched"
+  ],
   "exports": {
     "./js": "./js.js",
     "./no-rdf": "./no-rdf.js",
@@ -29,7 +35,6 @@
     "eslint-plugin-n": "^18.0.1",
     "eslint-plugin-promise": "^7.3.0",
     "eslint-plugin-rdf": "^3.0.1",
-    "eslint-plugin-require-js-extension": "^0.0.5",
     "eslint-plugin-unused-imports": "^4.0.0"
   },
   "optionalDependencies": {
@@ -52,7 +57,8 @@
     "eslint-plugin-require-js-extension": "^0.0.5",
     "eslint-plugin-unused-imports": "^4.4.1",
     "husky": "^9.0.11",
-    "lint-staged": "^15.2.7"
+    "lint-staged": "^15.2.7",
+    "patch-package": "^8.0.1"
   },
   "repository": {
     "type": "git",
