@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.0.3
+
+### Patch Changes
+
+- c5183c2: Include patched `eslint-plugin-require-js-extension` until v9+ compatibility fix is merged
+
 ## 4.0.2
 ### Patch Changes
 
